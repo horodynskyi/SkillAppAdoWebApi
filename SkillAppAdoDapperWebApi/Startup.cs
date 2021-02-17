@@ -37,12 +37,16 @@ namespace SkillAppAdoDapperWebApi
             #region SQL repositories
             services.AddTransient<ISQLProductRepository, SQLProductRepository>();
             services.AddTransient<ISQLCategoriesRepository, SQLCategoriesRepository>();
-          
+            services.AddTransient<ISQLValuesRepository, SQLValuesRepository>();
+            services.AddTransient<ISQLAttributeRepository, SQLAttributeRepository>();
+
             #endregion
 
             #region SQL services
             services.AddTransient<ISQLProductService, SQLProductService>();
             services.AddTransient<ISQLCategoriesService, SQLCategoriesService>();
+            services.AddTransient<ISQLValuesService, SQLValuesService>();
+            services.AddTransient<ISQLAttributeService, SQLAttributeService>();
 
             #endregion
 
