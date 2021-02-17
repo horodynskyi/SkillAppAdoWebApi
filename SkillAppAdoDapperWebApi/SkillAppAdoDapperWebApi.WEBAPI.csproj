@@ -26,10 +26,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SkillAppAdoDapperWebApi.DAL\SkillAppAdoDapperWebApi.DAL\SkillAppAdoDapperWebApi.DAL.csproj" />
-    <ProjectReference Include="..\..\SkillAppAdoWebApi.BLL\SkillAppAdoDapperWebApi.BLL\SkillAppAdoDapperWebApi.BLL.csproj" />
-    <ProjectReference Include="..\..\SkillAppAdoWebApi.Infrastracture\SkillAppAdoWebApi.Infrastracture\SkillAppAdoWebApi.Infrastracture.csproj" />
-    <ProjectReference Include="..\..\SkillAppAdoWebApi.Repository\SkillAppAdoDapperWebApi.Repository\SkillAppAdoDapperWebApi.Repository.csproj" />
+    <ProjectReference Include="..\SkillAppAdoDapperWebApi.BLL\SkillAppAdoDapperWebApi.BLL.csproj" />
+    <ProjectReference Include="..\SkillAppAdoDapperWebApi.DAL\SkillAppAdoDapperWebApi.DAL.csproj" />
+    <ProjectReference Include="..\SkillAppAdoDapperWebApi.Repository\SkillAppAdoDapperWebApi.Repository.csproj" />
+    <ProjectReference Include="..\SkillAppAdoWebApi.Infrastracture\SkillAppAdoWebApi.Infrastracture.csproj" />
   </ItemGroup>
 
 
